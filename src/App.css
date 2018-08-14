@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap {
+  width: 30%;
+  /*position: absolute;
+  top: 50%;
+  left: 50%;*/
+  transform: translate(-50%, -50%);
+}
+
+.search {
+  width: 100%;
+  position: relative;
+}
+
+.margin {
+  margin-top: 50px;
+  margin-left: 20px;
+}
+.position {
+  position: absolute;
+  left: 150px;
+  top: 80px;
+}
+.position2 {
+  position: absolute;
+  left: 30px;
+  top: 80px;
+}
+.position3 {
+  position: absolute;
+  left: 300px;
+  top: 158px;
+}
+
+.position4 {
+  position: absolute;
+  left: 340px;
+  top: 230px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
